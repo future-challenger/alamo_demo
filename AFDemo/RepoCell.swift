@@ -9,6 +9,8 @@
 import UIKit
 
 class RepoCell: UITableViewCell {
+    @IBOutlet weak var titleLabel: UILabel?
+    @IBOutlet weak var descriptionLabel: UILabel?
 
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -20,5 +22,9 @@ class RepoCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    func setRepoInfo(repo: RepoInfo) {
+        self.titleLabel?.text = repo.fullName
+        self.descriptionLabel?.text = repo.owner?.reposUrl
+    }
 }
