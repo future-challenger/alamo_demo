@@ -18,6 +18,7 @@
 		B4254DC41D47537D006B8F54 /* RepoInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4254DC31D47537D006B8F54 /* RepoInfo.swift */; };
 		B4254DC61D475719006B8F54 /* OwnerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4254DC51D475719006B8F54 /* OwnerInfo.swift */; };
 		B4254DCA1D477C24006B8F54 /* RepoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4254DC91D477C24006B8F54 /* RepoCell.swift */; };
+		B4254DCE1D4890DD006B8F54 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B4254DCD1D4890DD006B8F54 /* README.md */; };
 		B7E9E7CCCE2C7BE6DDD6BCDB /* Pods_AFDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 915FCDD136B0919DCDE098EF /* Pods_AFDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		B4254DC31D47537D006B8F54 /* RepoInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoInfo.swift; sourceTree = "<group>"; };
 		B4254DC51D475719006B8F54 /* OwnerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OwnerInfo.swift; sourceTree = "<group>"; };
 		B4254DC91D477C24006B8F54 /* RepoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepoCell.swift; sourceTree = "<group>"; };
+		B4254DCD1D4890DD006B8F54 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		F0910353181509D85F0F2C72 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -122,6 +124,7 @@
 		B4254D941D4662BD006B8F54 /* AFDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B4254DCD1D4890DD006B8F54 /* README.md */,
 				B4254DCC1D488CD4006B8F54 /* Model */,
 				B4254DCB1D488CC3006B8F54 /* View */,
 				B4254D951D4662BD006B8F54 /* AppDelegate.swift */,
@@ -360,6 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4254DCE1D4890DD006B8F54 /* README.md in Sources */,
 				B4254DCA1D477C24006B8F54 /* RepoCell.swift in Sources */,
 				B4254D981D4662BD006B8F54 /* ViewController.swift in Sources */,
 				B4254DC61D475719006B8F54 /* OwnerInfo.swift in Sources */,
